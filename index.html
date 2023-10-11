@@ -10,12 +10,44 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    Stay updated! Join 60,000+ product managers receiving monthly updates on:
-    Product discovery and building what matters Measuring to ensure updates are
-    a success And much more! Email address email@company.com Subscribe to
-    monthly newsletter Thanks for subscribing! A confirmation email has been
-    sent to ash@loremcompany.com. Please open it and click the button inside to
-    confirm your subscription. Dismiss message
+    <div class="container">
+      <img src="assets/images/illustration-sign-up-mobile.svg" />
+      <div class="textbox">
+        <h2>Stay updated!</h2>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <div class="ticks">
+          <img class="tick-icon" src="assets/images/icon-success.svg" />
+          <p>Product discovery and building what matters</p>
+        </div>
+        <div class="ticks">
+          <img class="tick-icon" src="assets/images/icon-success.svg" />
+          <p>Measuring to ensure updates are a success</p>
+        </div>
+        <div class="ticks">
+          <img class="tick-icon" src="assets/images/icon-success.svg" />
+          <p>And much more!</p>
+        </div>
+        <div class="form">
+          <label for="email">Email address</label>
+          <input
+            class="email-input"
+            id="email"
+            type="email"
+            placeholder="email@company.com"
+          />
+        </div>
+      </div>
+      <button class="subscribe-button">Subscribe to monthly newsletter</button>
+    </div>
+    <div class="second-page">
+      <img src="assets/images/icon-success.svg" />
+      <h2>Thanks for subscribing!</h2>
+      <p>
+        A confirmation email has been sent to ash@loremcompany.com. Please open
+        it and click the button inside to confirm your subscription.
+      </p>
+      <button class="close-button">Dismiss message</button>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
