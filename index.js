@@ -4,6 +4,13 @@ const firstPage = document.querySelector(".container");
 const emailInput = document.querySelector(".email-input");
 const emailLabel = document.querySelector(".email-label");
 const subMessage = document.querySelector(".summary-message");
+const mainPhoto = document.querySelector(".main-photo");
+
+if (window.innerWidth >= 1439) {
+  mainPhoto.src = "/assets/images/illustration-sign-up-desktop.svg";
+} else {
+  mainPhoto.src = "assets/images/illustration-sign-up-mobile.svg";
+}
 
 subscribeBtn.addEventListener("click", () => {
   const email = emailInput.value;

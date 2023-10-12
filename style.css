@@ -76,7 +76,7 @@ body {
   color: hsl(0, 0%, 100%);
   font-size: 16px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin: 20px 0;
   cursor: pointer;
 }
 
@@ -119,4 +119,58 @@ body {
 
 .invalid-label {
   color: #ff6b6b;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(235, 18%, 26%);
+  }
+  .container {
+    width: 840px;
+    height: 540px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    flex-direction: row-reverse;
+  }
+
+  .main-photo {
+    height: 540px;
+    width: 340px;
+    margin-right: 20px;
+  }
+
+  .textbox {
+    width: 380px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .textbox h2 {
+    font-size: 56px;
+  }
+  .subscribe-button {
+    width: 380px;
+    height: 50px;
+    margin: 20px 0 20px 50px;
+  }
+
+  .form {
+    margin-top: 10px;
+  }
+  .second-page {
+    width: 440px;
+    height: 440px;
+    justify-content: flex-start;
+    background: hsl(0, 0%, 100%);
+    gap: 20px;
+    padding: 50px;
+    position: relative;
+    border-radius: 30px;
+  }
+  .close-button {
+    bottom: 10px;
+    cursor: pointer;
+  }
 }
