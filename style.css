@@ -154,6 +154,7 @@ body {
     width: 380px;
     height: 50px;
     margin: 20px 0 20px 50px;
+    transition: background 0.5s ease;
   }
 
   .form {
@@ -172,5 +173,10 @@ body {
   .close-button {
     bottom: 10px;
     cursor: pointer;
+    transition: background 0.5s ease;
+  }
+  .close-button:hover,
+  .subscribe-button:hover {
+    background: hsl(4, 100%, 67%);
   }
 }
